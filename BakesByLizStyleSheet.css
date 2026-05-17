@@ -208,7 +208,7 @@ body.dark{
     transition: background-color 0.3s, color 0.3s;
 }
 body.light{
-    background-color: white;
+    background-color: #EABEC3;
     color: black;
     transition: background-color 0.3s, color 0.3s, text-shadow 0.3s;
 }
@@ -227,4 +227,12 @@ body.dark #Title{
 }
 body.dark .hamburger span{
     background-color: #FFFFFF;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+}
+.iconText{
+    display: flex;
+    align-items: center;
 }
