@@ -1,3 +1,12 @@
+@font-face{
+    font-family: 'Montserrat';
+    src: url('Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'Montserrat';
+    src: url('Montserrat/Montserrat-Italic-VariableFont_wght.ttf') format('truetype');
+    font-style: italic;
+}
 a:link{
     text-decoration: none;
     color:black;
@@ -28,7 +37,7 @@ body{
     pointer-events: auto; /* Enable pointer events when menu is shown */
     transform: translateY(0);
     background-color:#FFFFFF;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', sans-serif;
 }
 .menu ul {
     list-style-type: none; /* Remove default bullet points */
@@ -186,16 +195,16 @@ input:checked + .slider:before{
 }
 .dark-mode-text{
     margin-top: 5px;
-    font-family: 'Lucida Console', Courier, monospace
+    font-family: 'Montserrat', sans-serif
 }
 h1{
-    font-family:'Lucida Console', Courier, monospace;
+    font-family:'Montserrat', sans-serif;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 body{
-    font-family: 'Lucida Console', Courier, monospace;
+    font-family: 'Montserrat', sans-serif;
 }
 .logo{
     height: 65px;
@@ -204,7 +213,7 @@ body{
 body.dark{
     background-color: #121212;
     color: white;
-    font-family: "Lucida Console";
+    font-family: "Montserrat";
     transition: background-color 0.3s, color 0.3s;
 }
 body.light{
@@ -214,7 +223,7 @@ body.light{
 }
 body.dark #Title{
     color: #fff;
-    font-family: "Lucida Console";
+    font-family: "Montserrat";
     text-shadow:
         0 0 5px #2196F3,
         0 0 10px #2196F3,
